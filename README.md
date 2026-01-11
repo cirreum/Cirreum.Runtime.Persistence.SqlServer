@@ -74,7 +74,7 @@ Configure persistence providers in `appsettings.json`:
 }
 ```
 
-The `Name` property resolves the connection string via `Configuration.GetConnectionString(name)`. For production, store connection strings in SqlServer Key Vault using the naming convention `ConnectionStrings--{Name}`.
+The `Name` property resolves the connection string via `Configuration.GetConnectionString(name)`. For production, store connection strings in a Key Vault using the naming convention `ConnectionStrings--{Name}`.
 
 For detailed configuration options, see the individual provider documentation:
 - [Cirreum.Persistence.Sql](https://github.com/cirreum/Cirreum.Persistence.Sql) (abstractions)
